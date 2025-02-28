@@ -1,0 +1,15 @@
+{
+  "is-main": true,
+  "import": [
+    { "path" : "Yoorkin/rabbit-tea", "alias": "tea" },
+    { 
+      "path":"Yoorkin/rabbit-tea/html", 
+      "alias": "html", 
+      "value": [
+        "div",
+        "text",
+        "h1"
+      ] 
+    }
+  ]
+}
