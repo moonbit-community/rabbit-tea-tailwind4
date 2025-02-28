@@ -35,6 +35,7 @@ const plugin = {
 
 export default defineConfig({
     root: 'src',
+    base: './',
     plugins: [plugin],
     css: {
         postcss: {
